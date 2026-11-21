@@ -1,12 +1,11 @@
 :root {
-    --primaryText: #fff;
-    --secondaryText: #ff015e;
-    --primary: rgba(156, 39, 176, .60);
-    --secondary: rgba(255, 1, 94, .60); 
-    --buttonHover: rgba(156, 39, 176, .40);
-    --smallButtonHover: rgba(0, 0, 0, .25);
+  --primaryText: #fff8ee;
+  --secondaryText: #ffd4a8;
+  --primary: #45152a;
+  --secondary: #873410;
+  --buttonHover: #66203d;
+  --smallButtonHover: rgba(0, 0, 0, .25);
 }
-
 html {
     box-sizing: border-box;
     /* keeps button boxes within phone screen width */
@@ -33,7 +32,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../imag
     background-attachment: fixed;
     /* Resizes the background image to cover the entire container */
     background-size: cover;
-    font-family: Futura, Verdana, sans-serif;
+    font-family: "DM Sans", Verdana, sans-serif;
     line-height: 1.5;
     font-size: 18px;
     display: flex;
